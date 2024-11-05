@@ -1,0 +1,121 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Resource",
+"class": "AbilityResource",
+"language": "GDScript",
+"path": "res://Resources/Scripts/ability_resource.gd"
+}, {
+"base": "KinematicBody",
+"class": "Actor",
+"language": "GDScript",
+"path": "res://Scenes/Entities/actor.gd"
+}, {
+"base": "Resource",
+"class": "CosmeticResource",
+"language": "GDScript",
+"path": "res://Resources/Scripts/cosmetic_resource.gd"
+}, {
+"base": "Area",
+"class": "FishZone",
+"language": "GDScript",
+"path": "res://Scenes/Entities/Player/fish_zone.gd"
+}, {
+"base": "Control",
+"class": "GenericUIButton",
+"language": "GDScript",
+"path": "res://Scenes/Menus/Main Menu/ui_generic_button.gd"
+}, {
+"base": "Node",
+"class": "ItemMesh",
+"language": "GDScript",
+"path": "res://Scenes/ItemMeshes/item_mesh.gd"
+}, {
+"base": "Resource",
+"class": "ItemResource",
+"language": "GDScript",
+"path": "res://Resources/Scripts/item_resource.gd"
+}, {
+"base": "CanvasLayer",
+"class": "Minigame",
+"language": "GDScript",
+"path": "res://Scenes/Minigames/minigame.gd"
+}, {
+"base": "Actor",
+"class": "PlayerProp",
+"language": "GDScript",
+"path": "res://Scenes/Entities/Props/prop.gd"
+}, {
+"base": "Button",
+"class": "ShopButton",
+"language": "GDScript",
+"path": "res://Scenes/HUD/Shop/ShopButtons/shop_button.gd"
+}, {
+"base": "Control",
+"class": "TooltipNode",
+"language": "GDScript",
+"path": "res://Scenes/Singletons/Tooltips/tooltip_node.gd"
+}, {
+"base": "Node",
+"class": "Upgrade",
+"language": "GDScript",
+"path": "res://Resources/Upgrades/upgrade.gd"
+}, {
+"base": "Resource",
+"class": "UpgradeResource",
+"language": "GDScript",
+"path": "res://Resources/Scripts/upgrade_resource.gd"
+}, {
+"base": "Spatial",
+"class": "WaterMain",
+"language": "GDScript",
+"path": "res://Scenes/Map/Props/water_main.gd"
+}, {
+"base": "Spatial",
+"class": "Zone",
+"language": "GDScript",
+"path": "res://Scenes/Map/Zones/zone.gd"
+} ]
+_global_script_class_icons={
+"AbilityResource": "",
+"Actor": "",
+"CosmeticResource": "",
+"FishZone": "",
+"GenericUIButton": "",
+"ItemMesh": "",
+"ItemResource": "",
+"Minigame": "",
+"PlayerProp": "",
+"ShopButton": "",
+"TooltipNode": "res://Assets/Textures/UI/bait_icons2.png",
+"Upgrade": "",
+"UpgradeResource": "",
+"WaterMain": "",
+"Zone": ""
+}
+
+[application]
+
+config/name="BaitStation"
+run/main_scene="res://mods/YUNG.BaitStation/Scenes/prop_bait_station.tscn"
+config/icon="res://icon.png"
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

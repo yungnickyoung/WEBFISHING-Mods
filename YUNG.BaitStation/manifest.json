@@ -1,0 +1,11 @@
+{
+  "Id": "YUNG.BaitStation",
+  "PackPath": "YUNG.BaitStation.pck",
+  "Dependencies": ["Sulayre.Lure"],
+  "Metadata": {
+    "Name": "YUNG's Bait Station",
+    "Author": "YUNGNICKYOUNG",
+    "Version": "0.0.1",
+    "Description": "Adds a Bait Station prop for quick access to the Bait Shop!"
+  }
+}
