@@ -1,0 +1,11 @@
+{
+  "Id": "YUNG.VendingStation",
+  "PackPath": "YUNG.VendingStation.pck",
+  "Dependencies": ["Sulayre.Lure"],
+  "Metadata": {
+    "Name": "YUNG's Vending Station",
+    "Author": "YUNGNICKYOUNG",
+    "Version": "0.0.1",
+    "Description": "Adds a Vending Machine Station prop for quick access to the vending machine!"
+  }
+}

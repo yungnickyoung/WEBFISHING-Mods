@@ -416,6 +416,7 @@ script = ExtResource( 23 )
 delete_on_owner_disconnect = true
 
 [node name="npc_test" type="Area" parent="."]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
 script = ExtResource( 1 )
 text = "TALK"
 shop_id = "sell"
