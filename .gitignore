@@ -9,3 +9,4 @@ obj/
 GDWeave/
 GDWeave.Dumper/
 Thunderstore
+*.pck
