@@ -1,0 +1,11 @@
+{
+  "Id": "YUNG.Props",
+  "PackPath": "YUNG.Props.pck",
+  "Dependencies": ["Sulayre.Lure"],
+  "Metadata": {
+    "Name": "YUNG's Props",
+    "Author": "YUNGNICKYOUNG",
+    "Version": "0.0.1",
+    "Description": "Adds lots of useful props like portable shops, quest board, and more!"
+  }
+}
